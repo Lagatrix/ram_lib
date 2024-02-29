@@ -13,11 +13,11 @@ class UseGetter:
         """
         self.__command_manager = command_manager
 
-    async def get_uses(self) -> tuple[int, int]:
+    async def get_use(self) -> tuple[int, int]:
         """Get use of RAM in the system.
 
         Returns:
-            The capacity of all modules of the ram and the use of the ram.
+            The capacity and the use of the RAM in bytes.
 
         Raises:
             CommandError: If the exit code is not 0.
