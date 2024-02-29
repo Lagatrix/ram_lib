@@ -6,5 +6,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ## [Unreleased]
 ## Added
 - @javierfh03 - Add ram getter with tests and mocks.
+- @javierfh03 - Add use getter with tests and mocks.
 
 [Unreleased]: https://github.com/Lagatrix/ram_lib.git

@@ -47,3 +47,7 @@ mock_ram_memories_entities = [
         configured_memory_speed="2133 MT/s"
     ),
 ]
+
+use_ram = ["used free", "16725721088 6934065152", "1023406080 0"]
+
+use_ram_formatted = (16725721088, 6934065152)
