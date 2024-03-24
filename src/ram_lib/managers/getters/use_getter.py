@@ -23,6 +23,6 @@ class UseGetter:
             CommandError: If the exit code is not 0.
         """
         data_list: list[str] = (await self.__command_manager.execute_command(
-            "/bin/free -b | /bin/awk '{print $2, $3}'", True))[1].split(" ")
+            "/bin/free -b | /bin/awk '{ print \\$2, \\$3 }'"))[1].split(" ")
 
         return int(data_list[0]), int(data_list[1])
